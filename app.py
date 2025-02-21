@@ -1,9 +1,14 @@
+#to run this code, type this command in bash: python -m streamlit run .\app.py
+
+
 import streamlit as st
 import pandas as pd
 import os
 
 # Set title
-st.title("Self-administration data anlysis r")
+st.title("Self-Administration Data Analyzer")
+
+st.markdown("<h3 style='font-size: 30px;'>Summary of the lever presses per box using med associate .txt files, version_1 by Paige Morris 2025</h3>", unsafe_allow_html=True)
 
 # Upload file
 uploaded_files = st.file_uploader("Upload TXT file(s)", type=["txt"], accept_multiple_files=True)
