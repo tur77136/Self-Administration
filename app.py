@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Set title
-st.title("Text File Processor")
+st.title("Self-administration data anlysis r")
 
 # Upload file
 uploaded_files = st.file_uploader("Upload TXT file(s)", type=["txt"], accept_multiple_files=True)
